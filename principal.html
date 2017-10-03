@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" href="css/redes.css">
+	<link rel="stylesheet" href="css/secciones.css">
+	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script src="https://use.fontawesome.com/502b7294a9.js"></script>
+	<script type="text/javascript">
+		var aux=false
+		function ver(n) {
+		
+        	 document.getElementById("subseccion"+n).style.display="block"
+
+        	 aux = true
+         }
+		function ocultar(n) {
+			
+			document.getElementById("subseccion"+n).style.display="none"
+         	
+		}
+
+         function ins(){
+         	aux = true
+
+         }
+</script>
+
+</head>
+<body>
+    <div class="red">
+		<div id="facebook"><a href="#" target="none" class="fa fa-facebook"></a></div>
+		<div id="youtube"><a href="#" class="fa fa-youtube-play"></a></div>
+		<div id="twitter"><a href="#" class="fa fa-twitter"></a></div>
+		<div id="correo"><a href="#" class="fa fa-envelope"></a></div>
+   </div>
+  <header>
+		<div class="ancho">
+			<div class="titulo">
+				<p><a href="#">Blog UNFV Computer Science</a></p>
+			</div>
+			<nav id="navegador">
+				<ul>
+					<li id="l" onmouseover="ver(3)" onmouseout="ocultar(3)"><a href="#!">Eventos</a>
+						<div id="subseccion3">
+        					<p><a id="un" href="#"> UNFV</a></p>
+        					<p>--------------</p>
+        					<p><a id="un" href="#"> Grupo</a></p>
+        					<p>--------------</p>
+        					<p><a id="un" href="#"> Fuera</a></p>
+        					<p>--------------</p>
+        					<p><a id="un" href="#"> Proximo</a></p> 
+      					</div>
+					</li>
+					<li id="l" onmouseover="ver(2)" onmouseout="ocultar(2)"><a href="#!">Informacion</a>
+						<div id="subseccion2" onmouseover="ins()">
+        					<p><a id="un" href="#"> Logros</a></p>
+        					<p><a id="un" href="#"> Challengues</a></p>
+        					<p><a id="un" href="#"> Metas</a></p>
+        					<p><a id="un" href="#"> Actualidad</a></p> 
+      					</div>
+					</li>
+					<li id="l" onmouseover="ver(1)" onmouseout="ocultar(1)"><a href="#!">Temas</a>
+						<div id="subseccion1" onmouseout="ins()">
+        					<p><a id="un" href="#"> Python</a></p>
+        					<p><a id="un" href="#"> Java</a></p>
+        					<p><a id="un" href="#"> Android</a></p>
+        					<p><a id="un" href="#"> Algoritmos</a></p> 
+      					</div>
+					</li>
+
+						<!--<ul>
+							<li><a href="">Menu1</a></li>
+							<li><a href="">Menu2</a></li>
+						</ul>-->
+				</ul>
+				<div class="borrar"></div>
+			</nav>
+		</div>
+  </header>
+  
+  <div class="ancho-letras">
+  	<div class="letras-slider">
+  		<h1 class="animated rubberBand"> Grupo De Estudio</h1>
+  		<p class="animated pulse">Aqui va la descipcion</p>
+  	</div>
+  </div>
+
+ <div id="particles-js"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/alto.js"></script>
+</body>
+</html>

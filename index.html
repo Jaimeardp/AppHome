@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <script src="js/script.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+<header>
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="#!">UNFV</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">GR ESTUDIO</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">FUERA</a></li>
+</ul>
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="#!">one</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">two</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">three</a></li>
+</ul>
+<ul id="dropdown3" class="dropdown-content">
+  <li><a href="#!">Nostros</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Logros</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Pronto</a></li>
+</ul>
+<ul id="dropdown4" class="dropdown-content">
+  <li><a href="#!">Python</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Java</a></li>
+  <li class="divider"></li>
+  <li><a href="#!">Android</a></li>
+</ul>
+
+<nav>
+  <div class="nav-wrapper">
+    <a href="#!" class="brand-logo">Blog Computer Science UNFV</a>
+    <ul class="right hide-on-med-and-down">
+      <!-- Dropdown Trigger -->
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Eventos<i class="material-icons right"></i></a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Tablas<i class="material-icons right"></i></a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Pagos<i class="material-icons right"></i></a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Temas<i class="material-icons right"></i></a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<form name="recibe.php" method="GET"> <!--Este archivo recibe los datos del formulario -->
+  <input type="text" value="Nombre :" placeholder="Nombre :" maxlength="10" size="20" required> 
+  <!--Ese texto "Nombre:" y el usuario al darle click se borra -->
+  <input type="submit" value="Enviar">
+</form>
+
+<section class="wap">
+  <section class="bienvenidos"> 
+    <h2>Contáctanos</h2>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur minus, eum mollitia doloribus voluptatum ducimus est harum dolore veritatis quaerat ea hic. Dolorum, natus. Placeat ipsa maiores quod ullam provident!</h3>
+  </section>
+  <section class="dos-columnas">
+    <div class="formulario">
+      <h4 class="formu-ti">Formulario de Contacto</h4>
+      <form action="enviar.php" method="post">
+        <input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+        <input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+        <input type="tel" name="telefono" placeholder="Teléfono" class="caja-1" required>
+        <input type="text" name="asunto" placeholder="Asunto" class="caja-1">
+        <textarea name="mensaje" id=""  placeholder="Comentarios" class="caja-2"></textarea>
+        <button type="submit" class="contratar-a correr">Enviar</button>
+      </form>
+    </div>
+
+    <div class="datos">
+      <ul class="datos-contacto">
+        <li><i class="fa fa-map-marker" aria-hidden="true"></i></li> 
+        <li><h4>Dirección:</h4>Av. San Francisco #653</li>
+        <li><i class="fa fa-mobile" aria-hidden="true"></i></li>
+        <li><h4>Teléfono:</h4>+56 5 555 555</li>
+        <li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+        <li><h4>E-mail</h4>contacto@sudominio.cl</li>
+      </ul>
+    </div>
+    <div class="datos">
+      <ul class="datos-contacto">
+        <li><i class="fa fa-twitter" aria-hidden="true"></i></li> 
+        <li><h4>Twitter:</h4>@bluuweb</li>
+        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        <li><h4>Facebook:</h4>@bluuweb</li>
+        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        <li><h4>Instagram:</h4>@bluuweb</li>
+      </ul>
+    </div>
+    
+    
+  </section>
+
+</section>
+</body>
+</html>

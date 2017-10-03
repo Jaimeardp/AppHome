@@ -1,0 +1,45 @@
+/*#navegador {
+ 	background-color: #663366; 
+ 	padding: 0.5em; 
+}*/
+/*#navegador li {
+ 	margin: 0px 5px; 
+ 	padding: 0.1em 1em 0.5em 1em; 
+ 	background-color: #9933cc; 
+ 	width: 12%;
+ 	float: left;
+ 	list-style-type: none; 
+ 	position: relative; 
+ }
+
+#subseccion1, #subseccion2, #subseccion3, #subseccion4 
+             { position: absolute; top: 244%; right: 0px;  
+			   background: rgba(173, 55, 9, 0.8);             
+			   padding: 0.2em 0.5em ; display: none;
+			   text-align: center;
+            }
+
+nav li:hover { 
+	color: #444; 
+}
+nav li a:link, #navegador li a:visited {   
+       }
+nav li a:hover, #navegador li a:active { 
+             }
+
+.borrar { clear: both; }	
+
+.divider {
+  height: 1px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+}
+
+li{
+	display: list-item;
+}*/
+
+.rm-nav {
+    letter-spacing: 1px;
+}
+

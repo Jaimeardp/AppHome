@@ -1,0 +1,34 @@
+#particles-js{
+	background: url(C:\Users/Jaime/Desktop/Java/AppHome/AppHome/img/f-4.jpg);
+	background-position: center;
+	background-attachment: contain; /*Obligar dentro de las dimensiones*/
+	background-size: cover; /*Mismo tamaño del contenedor*/
+	width: 100%;
+}
+
+.ancho-letras{
+	top: 200px; /*La caja se desplaza*/
+	position: absolute; /*Ingora el orden establecidos de las cajas*/
+	width: 100%;
+	/*background: rgba(0,0,0,.8);*/ /*Fondo del div que contiene descrp*/
+	text-align: center; /*Texto Centrado*/
+	z-index: 1; /*La importancia de objetos si hay un 0 este div lo pasa encima*/
+}
+
+.letras-slider{
+	width: 80%;
+	margin: auto; /*Centrado por defecto*/
+}
+
+.letras-slider h1{
+	color: #FF6D00;
+	font-family: rale;
+	font-size: 90px;
+}
+
+.letras-slider p{
+	color: #FF6D00;
+	font-family: rale;
+	font-size: 30px;
+	padding-top: 50px;
+}
