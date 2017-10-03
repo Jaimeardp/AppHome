@@ -7,61 +7,29 @@
 	<link rel="stylesheet" href="css/redes.css">
 	<link rel="stylesheet" href="css/secciones.css">
 	<link rel="stylesheet" href="css/slider.css">
+	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/tresponsive.css">
 	<script src="https://use.fontawesome.com/502b7294a9.js"></script>
-	 <style>
-    #menu {
-        /*width: 500px;
-        margin: 0 auto*/
-        width: 50%;
-		height: 70px;
-		float: left;
-		text-align: right;
-		padding-top: 20px;
-		padding-right: 11px;
-		box-sizing: border-box;
-		line-height: 20px;
-    }
-    #menu>ul>li {
-        float: left;
-        /*display: inline;*/
-		/*list-style-type: none; */
-		/*position: relative; */
-}
-    }
-    #menu>ul>li a {
-        display: block;
-        width: 100px;
-        height: 50px;
-        background: green;
-        text-align: center;
-        line-height: 50px
-    }
-    #menu>ul>li>ul {
-        display: none
-    }
-    #menu>ul>li>ul>li {
-        position: relative
-    }
-    #menu>ul>li>ul>li>a {
-        background: red
-    }
-    #menu>ul>li>ul>li>ul {
-        position: absolute;
-        left: 100px;
-        top: 0;
-        display: none
-    }
-    #menu>ul>li>ul>li>ul a {
-        background: #ff0
-    }
-    #menu ul {
-        list-style: none;
-        margin: 0;
-        padding: 0
-    }
-    </style>
+	<script type="text/javascript">
+		var aux=false
+		function ver(n) {
+		
+        	 document.getElementById("subseccion"+n).style.display="block"
+
+        	 aux = true
+         }
+		function ocultar(n) {
+			
+			document.getElementById("subseccion"+n).style.display="none"
+         	
+		}
+
+         function ins(){
+         	aux = true
+
+         }
+</script>
+
 </head>
 <body>
     <div class="red">
@@ -71,79 +39,34 @@
 		<div id="correo"><a href="#" class="fa fa-envelope"></a></div>
    </div>
    <header>
-   	<div class="ancho">
    		<div class="titulo">
-			<p><a href="#">Blog UNFV Computer Science</a></p>
-		</div>
-   		<nav id="menu">
-        <ul>
-            <li><a href="#">Lorem.</a>
-            </li>
-            <li><a href="#">Repellendus.</a>
-                <ul>
-                    <li><a href="#">Lorem.</a>
-                    </li>
-                    <li><a href="#">Voluptate.</a>
-                    </li>
-                    <li><a href="#">Nesciunt.</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#">Fugiat!</a>
-            </li>
-            <li><a href="#">Fuga.</a>
-            </li>
-            <li><a href="#">Ea.</a>
-                <ul>
-                    <li><a href="#">Lorem.</a>
-                    </li>
-                    <li><a href="#">At.</a>
-                    </li>
-                    <li><a href="#">Ratione?</a>
-                    </li>
-                    <li><a href="#">Optio.</a>
-                        <ul>
-                            <li><a href="#">Lorem.</a>
-                            </li>
-                            <li><a href="#">Voluptas!</a>
-                            </li>
-                            <li><a href="#">Error?</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Asperiores.</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-   	</div>
+   			<p><a href="">Mi Portafolio</a></p>
+   		</div>
+   		<ul class="nav">
+   			<li><a href="">Inicio</a></li>
+   			<li><a href="">Informacion</a>
+   				<ul>
+   					<li><a href="">Menu1</a></li>
+   					<li><a href="">Menu1</a></li>
+   					<li><a href="">Menu1</a></li>
+   				</ul>
+   			</li>
+   			<li><a href="">Contaco</a></li>
+   			<li><a href="">Nostros</a></li>
+   		</ul>
    </header>
-   <div class="ancho-letras">
-  		<div class="letras-slider">
-  			<h1 class="animated rubberBand"> Grupo De Estudio</h1>
-  			<p class="animated pulse">Aqui va la descipcion</p>
-  		</div>
+  
+  <div class="ancho-letras">
+  	<div class="letras-slider">
+  		<h1 class="animated rubberBand"> Grupo De Estudio</h1>
+  		<p class="animated pulse">Aqui va la descipcion</p>
+  	</div>
   </div>
 
-<div id="particles-js"></div>
+ <div id="particles-js"></div>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/alto.js"></script>
-   
-<script>
-    $(document).ready(function() {
-        $menu = $('#menu').find('ul').find('li');
-
-        $menu.hover(function() {
-            $(this).children('ul').stop();
-            $(this).children('ul').slideDown();
-        }, function() {
-            $(this).children('ul').stop();
-            $(this).children('ul').slideUp();
-        });
-    });
-</script>
 </body>
 </html>
